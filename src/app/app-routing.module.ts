@@ -3,13 +3,14 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   { path: '', loadChildren: './tabs/tabs.module#TabsPageModule' },
-  { path: 'home', loadChildren: './home/home.module#HomePageModule' },
-  { path: 'detail-profile', loadChildren: './detail-profile/detail-profile.module#DetailProfilePageModule' },
-  { path: 'edit-user', loadChildren: './edit-user/edit-user.module#EditUserPageModule' },
-  { path: 'matches', loadChildren: './matches/matches.module#MatchesPageModule' },
-  { path: 'profile', loadChildren: './profile/profile.module#ProfilePageModule' },
-  { path: 'register', loadChildren: './register/register.module#RegisterPageModule' },
-  { path: 'register2', loadChildren: './register2/register2.module#Register2PageModule' }
+  { path: 'detail-profile', loadChildren: './pages/detail-profile/detail-profile.module#DetailProfilePageModule' },
+  { path: 'edit-user', loadChildren: './pages/edit-user/edit-user.module#EditUserPageModule' },
+  { path: 'home', loadChildren: './pages/home/home.module#HomePageModule' },
+  { path: 'matches', loadChildren: './pages/matches/matches.module#MatchesPageModule' },
+  { path: 'profile', loadChildren: './pages/profile/profile.module#ProfilePageModule' },
+  { path: 'register', loadChildren: './pages/register/register.module#RegisterPageModule' },
+  { path: 'register2', loadChildren: './pages/register2/register2.module#Register2PageModule' },
+  { path: 'tabs', loadChildren: './pages/tabs/tabs.module#TabsPageModule' }
 ];
 @NgModule({
   imports: [

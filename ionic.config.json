@@ -1,0 +1,7 @@
+{
+  "name": "Love Experience",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

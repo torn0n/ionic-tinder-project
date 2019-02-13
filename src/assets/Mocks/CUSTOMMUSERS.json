@@ -1,0 +1,203 @@
+﻿{ 
+  "customMUsers": [     
+ 
+    { 
+      "gender": "male", 
+      "name": { 
+        "first": "Winnie", 
+        "last": "L'ourson" 
+      }, 
+      "location": { 
+        "street": "Parc Walt Disney Studios, place des Frères Lumière", 
+        "city": "Chessy", 
+        "state": "France", 
+        "postcode": 777000 
+      }, 
+      "email": "winnie.lourson@example.com", 
+      "dob": "2009-02-02 21:19:59", 
+      "picture": { 
+        "large": "assets/Mocks/Pictures/CustomUser/winnie-ourson-profile.jpg", 
+        "medium": "assets/Mocks/Pictures/CustomUser/winnie-ourson-profile.jpg", 
+        "thumbnail": "assets/Mocks/Pictures/CustomUser/winnie-ourson-profile.jpg" 
+      }, 
+      "nat": "US", 
+      "bonne": false, 
+      "description": "Je sais compté deux par deux et lasser mes chaussures.", 
+      "gallery": [ 
+        "Mocks/Pictures/CustomUser/winnie-ourson-1-min.jpg", 
+        "Mocks/Pictures/CustomUser/winnie-ourson-2-min.jpg", 
+        "Mocks/Pictures/CustomUser/winnie-ourson-3-min.jpg", 
+        "Mocks/Pictures/CustomUser/winnie-ourson-4-min.jpg", 
+        "Mocks/Pictures/CustomUser/winnie-ourson-5-min.jpg", 
+        "Mocks/Pictures/CustomUser/winnie-ourson-6-min.jpg" 
+      ] 
+    }, 
+ 
+    { 
+      "gender": "male", 
+      "name": { 
+        "first": "Stephane", 
+        "last": "Berne" 
+      }, 
+      "location": { 
+        "street": "RTL Stéphane Bern 22 rue Bayard", 
+        "city": "Paris", 
+        "state": "France", 
+        "postcode": 75008 
+      }, 
+      "email": "stephane.berne@example.com", 
+      "dob": "1963-11-14 21:19:59", 
+      "picture": { 
+        "large": "assets/Mocks/Pictures/CustomUser/stephane-berne-profile.jpg",  
+        "medium": "assets/Mocks/Pictures/CustomUser/stephane-berne-profile.jpg",  
+        "thumbnail": "assets/Mocks/Pictures/CustomUser/stephane-berne-profile.jpg"  
+      }, 
+      "nat": "FR", 
+      "bonne": false, 
+      "description": "Je suis un arbre volant, avec des racines et des ailes", 
+      "gallery": [ 
+        "Mocks/Pictures/CustomUser/stephane-berne-1-min.jpg", 
+        "Mocks/Pictures/CustomUser/stephane-berne-2-min.jpg", 
+        "Mocks/Pictures/CustomUser/stephane-berne-3-min.jpg", 
+        "Mocks/Pictures/CustomUser/stephane-berne-4-min.jpg", 
+        "Mocks/Pictures/CustomUser/stephane-berne-5-min.jpg", 
+        "Mocks/Pictures/CustomUser/stephane-berne-6-min.jpg" 
+ 
+      ] 
+    }, 
+ 
+   
+    { 
+      "gender": "male", 
+      "name": { 
+        "first": "N°150", 
+        "last": "Mewtwo" 
+      }, 
+      "location": { 
+        "street": "Préfecture de Kyoto", 
+        "city": "Kyoto", 
+        "state": "Japon", 
+        "postcode": 5200461 
+      }, 
+      "email": "pokemon.mewto@example.com", 
+      "dob": "1800-01-01 21:19:59", 
+      "picture": { 
+        "large": "assets/Mocks/Pictures/CustomUser/mewtwo-profile.png", 
+        "medium": "assets/Mocks/Pictures/CustomUser/mewtwo-profile.png", 
+        "thumbnail": "assets/Mocks/Pictures/CustomUser/mewtwo-profile.png" 
+      }, 
+      "nat": "JP", 
+      "bonne": false, 
+      "description": "You will never see me again ! Good luck.", 
+      "gallery": [ 
+        "Mocks/Pictures/CustomUser/mewtwo-1-min.jpg", 
+        "Mocks/Pictures/CustomUser/mewtwo-2-min.jpg", 
+        "Mocks/Pictures/CustomUser/mewtwo-3-min.jpg", 
+        "Mocks/Pictures/CustomUser/mewtwo-4-min.jpg", 
+        "Mocks/Pictures/CustomUser/mewtwo-5-min.jpg", 
+        "Mocks/Pictures/CustomUser/mewtwo-6-min.jpg" 
+      ] 
+    },
+	
+	{
+      "Id": "96dd6e54-90e4-4746-bb63-6ccf2adf7202",
+      "gender": "male",
+      "name": {
+        "first": "Cédric",
+        "last": "Pituello"
+      },
+      "location": {
+        "street": "",
+        "city": "",
+        "state": "Corée du nord",
+        "postcode": 5200461
+      },
+      "email": "cédric.pituello@example.com",
+      "dob": "1996-08-02 21:19:59",
+      "picture": {
+        "large": "assets/Mocks/Pictures/CustomUser/pituello-profile.jpg",
+        "medium": "assets/Mocks/Pictures/CustomUser/pituello-profile.jpg",
+        "thumbnail": "assets/Mocks/Pictures/CustomUser/pituello-profile.jpg"
+      },
+      "nat": "FR",
+      "bonne": false,
+      "description": "너는 아주 호기심이 많다."
+    },
+
+    {
+      "Id": "7c49e047-255d-479c-95b2-c60dacb4abfa",
+      "gender": "male",
+      "name": {
+        "first": "Thomas",
+        "last": "Ornon"
+      },
+      "location": {
+        "street": "",
+        "city": "",
+        "state": "Atlantide",
+        "postcode": 5200461
+      },
+      "email": "thomas.ornon@example.com",
+      "dob": "1994-06-14 21:19:59",
+      "picture": {
+        "large": "assets/Mocks/Pictures/CustomUser/ornon-profile.jpg",
+        "medium": "assets/Mocks/Pictures/CustomUser/ornon-profile.jpg",
+        "thumbnail": "assets/Mocks/Pictures/CustomUser/ornon-profile.jpg"
+      },
+      "nat": "FR",
+      "bonne": false,
+      "description": "Parlez ami et entrez."
+    },
+
+    {
+      "Id": "7a07004a-dee4-463c-846e-be8a5bc72bef",
+      "gender": "male",
+      "name": {
+        "first": "Maxime",
+        "last": "Grenet"
+      },
+      "location": {
+        "street": "",
+        "city": "",
+        "state": "Kaamelott",
+        "postcode": 5200461
+      },
+      "email": "maxime.grenet@example.com",
+      "dob": "1994-11-17 21:19:59",
+      "picture": {
+        "large": "assets/Mocks/Pictures/CustomUser/grenet-profile.jpg",
+        "medium": "assets/Mocks/Pictures/CustomUser/grenet-profile.jpg",
+        "thumbnail": "assets/Mocks/Pictures/CustomUser/grenet-profile.jpg"
+      },
+      "nat": "FR",
+      "bonne": false,
+      "description": "Le gras, c'est la vie !"
+    },
+
+    {
+      "Id": "5048ee19-5bae-47af-97d5-5395bea1b494",
+      "gender": "male",
+      "name": {
+        "first": "Seif",
+        "last": "Gouissem"
+      },
+      "location": {
+        "street": "",
+        "city": "",
+        "state": "Azeroth",
+        "postcode": 5200461
+      },
+      "email": "seif.goussem@example.com",
+      "dob": "1995-07-09 21:19:59",
+      "picture": {
+        "large": "assets/Mocks/Pictures/CustomUser/gouissem-profile.jpg",
+        "medium": "assets/Mocks/Pictures/CustomUser/gouissem-profile.jpg",
+        "thumbnail": "assets/Mocks/Pictures/CustomUser/gouissem-profile.jpg"
+      },
+      "nat": "FR",
+      "bonne": false,
+      "description": "Nice pants ! What's the drop rate ?"
+    }
+ 
+  ] 
+}

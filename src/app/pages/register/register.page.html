@@ -1,9 +1,65 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>register</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content padding class="home" scroll="false">
 
-<ion-content padding>
+  <div class="progress-bar stripes peach">
+    <span [style.width]="workoutProgress"></span>
+  </div>
+
+  <div class="picture-container">
+    <img id="profile-image" [src]="user_picture" (click)="presentActionSheet()">
+    <div class="fab-container">
+      <ion-fab bottom right edge>
+        <ion-fab-button class="bord" size="mini" color="light" (click)="presentActionSheet()">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
+    </div>
+  </div>
+
+
+  <form [formGroup]="registerForm" (ngSubmit)="onSubmit(this.registerForm.value)">
+
+    <div class="container">
+
+      <div class="block center ">
+        <ion-item>
+          <ion-label floating>Prénom</ion-label>
+          <ion-input formControlName="firstName" type="text" [class.invalid]="!firstname.valid && (firstname.dirty || submitAttempt)"></ion-input>
+        </ion-item>
+
+        <div *ngIf="!firstname.valid  && (firstname.dirty || submitAttempt)" class="validator-error">
+          Prénom invalide.
+        </div>
+      </div>
+
+      <div class="block center">
+        <ion-item>
+          <ion-label floating>Nom</ion-label>
+          <ion-input formControlName="lastName" type="text" [class.invalid]="!lastname.valid && (lastname.dirty || submitAttempt)"></ion-input>
+        </ion-item>
+
+        <div *ngIf="!lastname.valid  && (lastname.dirty || submitAttempt)" class="validator-error">
+          Nom invalide.
+        </div>
+      </div>
+
+    </div>
+
+    <ion-fab end class="bottom-right">
+      <ion-fab-button class="bord" [disabled]="!this.registerForm.valid">
+        <ion-icon name="ios-arrow-forward"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+
+    <ion-row>
+      <ion-col text-center>
+        <ion-button fill="clear" type="button" color="white" (click)="onWelcome()">
+          Bienvenue !
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </form>
+
+
+
 
 </ion-content>

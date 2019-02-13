@@ -15,6 +15,9 @@ const routes: Routes = [
 ];
 
 @NgModule({
+  exports: [
+    RegisterPage
+  ],
   imports: [
     CommonModule,
     FormsModule,

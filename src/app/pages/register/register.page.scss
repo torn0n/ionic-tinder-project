@@ -1,0 +1,214 @@
+$SIDEMENU_TRANSPARENCY: rgba(255, 255, 255, 0.048);
+
+page-register {
+
+    .progress-bar {
+        background-color: color($colors, white);
+        height: 20px;
+        width: 80%;
+        padding-top: 2px;
+        padding-bottom: 1px;
+        padding-left: 2px;
+        padding-right: 2px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        //box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+        border-radius: 5px;
+    }
+
+    .progress-bar span {
+        display: inline-block;
+        height: 100%;
+        border-radius: 3px;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+        transition: width .4s ease-in-out;
+    }
+
+    .stripes span {
+        background-size: 30px 30px;
+        background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+            transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+            transparent 75%, transparent);
+
+        animation: animate-stripes 3s linear infinite;
+    }
+
+    .peach span {
+        background-color: var(--ion-color-primary, #ed4264);
+    }
+
+
+    @keyframes animate-stripes {
+        0% {
+            background-position: 0 0;
+        }
+
+        100% {
+            background-position: 60px 0;
+        }
+    }
+
+
+
+    .home {
+        background-image: url('../assets/imgs/dating2.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .picture-container {
+        padding-bottom: 5px;
+
+        #profile-image {
+            //margin-top: 5%;
+            display: block;
+            margin: 0 auto 0;
+            max-width: 512px;
+            max-height: 512px;
+            width: 40vh;
+            height: 40vh;
+
+            object-fit: cover;
+            object-position: center;
+            box-shadow: 0px 11px 20px -3px rgba(142, 136, 146, 0.75);
+            border-radius: 50%;
+            border: 4px solid $SIDEMENU_TRANSPARENCY;
+            border-color: rgb(255, 255, 255);
+
+        }
+
+
+
+        .fab-container {
+            position: relative;
+
+            .bord {
+                border: 2px solid $SIDEMENU_TRANSPARENCY;
+                border-color: white;
+            }
+
+
+        }
+    }
+
+    .container {
+        width: 100%;
+        height: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        padding-bottom: 20px;
+
+        .item-md {
+            color: #444;
+        }
+
+
+
+        .block {
+            width: 80%;
+            text-align: left;
+        }
+
+        .center {
+            margin: auto;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .validator-error {
+            color: rgb(192, 29, 29);
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+
+
+    }
+
+    .bottom-right {
+        padding-right: 2vh;
+        padding-top: 10vh;
+
+        .bord {
+            border: 4px solid $SIDEMENU_TRANSPARENCY;
+            border-color: white;
+        }
+
+    }
+
+
+
+}
+
+/*
+
+ion-navbar {
+    position: relative;
+    ion-title { 
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        }
+    }
+*/
+
+
+
+
+
+
+
+
+
+/*
+ion-label, .select-text {
+    margin-left: 10px;
+}
+*/
+/*ion-input, ion-select, ion-textarea {
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+}*/
+
+
+/*
+    
+    .fab-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 500px;
+        z-index: 1;
+        margin-top: 28px;
+     }*/
+
+
+
+/*.bottom-right {
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    width: 20%;
+    margin-bottom: 2vw;
+    margin-right: 5vw;
+  }*/
+
+
+/*
+.fab {
+    width: 100px !important;
+    height: 100px !important;
+    margin-bottom: 50px;
+    }
+*/

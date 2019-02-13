@@ -1,0 +1,295 @@
+﻿{
+  "customUsers": [
+
+    {
+      "gender": "female",
+      "name": {
+        "first": "Scarlett",
+        "last": "Johansson"
+      },
+      "location": {
+        "street": "Marleah Leslie, Inc. 1645 North Vine Street",
+        "city": "Los Angeles (LA)",
+        "state": "Californie",
+        "postcode": 90028
+      },
+      "email": "scarlett.johansson@example.com",
+      "dob": "1984-11-22 21:19:59",
+      "picture": {
+        "large": "https://cdn.pinkvilla.com/files/styles/contentpreview/public/Scarlett%20Johansson_0.jpg",
+        "medium": "https://cdn.pinkvilla.com/files/styles/contentpreview/public/Scarlett%20Johansson_0.jpg",
+        "thumbnail": "https://cdn.pinkvilla.com/files/styles/contentpreview/public/Scarlett%20Johansson_0.jpg"
+      },
+      "nat": "US",
+      "bonne": true,
+      "description": "Veuve noire à la recherche d'un super héro",
+      "gallery": [
+        "Mocks/Pictures/CustomUser/scarlett-johansson-1-min.jpg",
+        "Mocks/Pictures/CustomUser/scarlett-johansson-2-min.jpg",
+        "Mocks/Pictures/CustomUser/scarlett-johansson-3-min.jpg",
+        "Mocks/Pictures/CustomUser/scarlett-johansson-4-min.jpg",
+        "Mocks/Pictures/CustomUser/scarlett-johansson-5-min.jpg",
+        "Mocks/Pictures/CustomUser/scarlett-johansson-6-min.jpg"
+      ]
+    },
+
+    {
+      "gender": "female",
+      "name": {
+        "first": "Keira",
+        "last": "Knightley"
+      },
+      "location": {
+        "street": "A6 Cinema C/ Almirante 4",
+        "city": "Madrid",
+        "state": "Espagne",
+        "postcode": 28004
+      },
+      "email": "keira.knightley@example.com",
+      "dob": "1985-03-26 21:19:59",
+      "picture": {
+        "large": "http://www.buzznet.com/wp-content/uploads/sites/12/2011/04/msg-130377807307.jpg",
+        "medium": "http://www.buzznet.com/wp-content/uploads/sites/12/2011/04/msg-130377807307.jpg",
+        "thumbnail": "http://www.buzznet.com/wp-content/uploads/sites/12/2011/04/msg-130377807307.jpg"
+      },
+      "nat": "ES",
+      "bonne": true,
+      "description": "Partenaire fidèle en attente du retour de Will",
+      "gallery": [
+        "Mocks/Pictures/CustomUser/keira-knightley-1-min.jpg",
+        "Mocks/Pictures/CustomUser/keira-knightley-2-min.jpg",
+        "Mocks/Pictures/CustomUser/keira-knightley-3-min.jpg",
+        "Mocks/Pictures/CustomUser/keira-knightley-4-min.jpg",
+        "Mocks/Pictures/CustomUser/keira-knightley-5-min.jpg",
+        "Mocks/Pictures/CustomUser/keira-knightley-6-min.jpg"
+      ]
+    },
+
+    {
+      "gender": "female",
+      "name": {
+        "first": "Emilie",
+        "last": "Ratachovsky"
+      },
+      "location": {
+        "street": "",
+        "city": "Newport Beach",
+        "state": "Californie",
+        "postcode": 92660
+      },
+      "email": "emilie.ratachovsky@example.com",
+      "dob": "1991-06-07 21:19:59",
+      "picture": {
+        "large": "https://img2.telestar.fr/var/telestar/storage/images/media/images/galerie/2016-11-28-des-photos-d-emily-ratajkowski-nue-fuitent-encore-sur-internet-photos/emily-ratajkowski-le-16-septembre-2016/1558621-1-fre-FR/Emily-Ratajkowski-le-16-septembre-2016_width1024.jpg",
+        "medium": "https://img2.telestar.fr/var/telestar/storage/images/media/images/galerie/2016-11-28-des-photos-d-emily-ratajkowski-nue-fuitent-encore-sur-internet-photos/emily-ratajkowski-le-16-septembre-2016/1558621-1-fre-FR/Emily-Ratajkowski-le-16-septembre-2016_width1024.jpg",
+        "thumbnail": "https://img2.telestar.fr/var/telestar/storage/images/media/images/galerie/2016-11-28-des-photos-d-emily-ratajkowski-nue-fuitent-encore-sur-internet-photos/emily-ratajkowski-le-16-septembre-2016/1558621-1-fre-FR/Emily-Ratajkowski-le-16-septembre-2016_width1024.jpg"
+      },
+      "nat": "US",
+      "bonne": true,
+      "description": "Je voudrais être jugée pour ma beauté intérieure",
+      "gallery": [
+        "Mocks/Pictures/CustomUser/emilie-ratachovsky-1-min.jpg",
+        "Mocks/Pictures/CustomUser/emilie-ratachovsky-2-min.jpg",
+        "Mocks/Pictures/CustomUser/emilie-ratachovsky-3-min.jpg",
+        "Mocks/Pictures/CustomUser/emilie-ratachovsky-4-min.jpg",
+        "Mocks/Pictures/CustomUser/emilie-ratachovsky-5-min.jpg",
+        "Mocks/Pictures/CustomUser/emilie-ratachovsky-6-min.jpg"
+      ]
+    },
+
+    {
+      "gender": "female",
+      "name": {
+        "first": "Emilia",
+        "last": "Clark"
+      },
+      "location": {
+        "street": "901 Airole Way",
+        "city": "Los Angeles",
+        "state": "Californie",
+        "postcode": 90077
+      },
+      "email": "emilia.clark@example.com",
+      "dob": "1986-10-23 21:19:59",
+      "picture": {
+        "large": "http://starwarsblog.starwars.com/wp-content/uploads/2016/11/TALL-ALL-1.jpg",
+        "medium": "http://starwarsblog.starwars.com/wp-content/uploads/2016/11/TALL-ALL-1.jpg",
+        "thumbnail": "http://starwarsblog.starwars.com/wp-content/uploads/2016/11/TALL-ALL-1.jpg"
+      },
+      "nat": "US",
+      "bonne": true,
+      "description": "Je dresse des dragons mais pas que...",
+      "gallery": [
+        "Mocks/Pictures/CustomUser/emilia-clark-1-min.jpg",
+        "Mocks/Pictures/CustomUser/emilia-clark-2-min.jpg",
+        "Mocks/Pictures/CustomUser/emilia-clark-3-min.jpg",
+        "Mocks/Pictures/CustomUser/emilia-clark-4-min.jpg",
+        "Mocks/Pictures/CustomUser/emilia-clark-5-min.jpg",
+        "Mocks/Pictures/CustomUser/emilia-clark-6-min.jpg"
+      ]
+    },
+
+    {
+      "gender": "female",
+      "name": {
+        "first": "Gal",
+        "last": "Gadot"
+      },
+      "location": {
+        "street": "Roc Nation 1411 Broadway 39th Floor",
+        "city": "New York",
+        "state": "New York",
+        "postcode": 10018
+      },
+      "email": "gal.gadot@example.com",
+      "dob": "1985-04-30 21:19:59",
+      "picture": {
+        "large": "https://130513-375933-1-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2016/09/Gal-Gadot.jpg",
+        "medium": "https://130513-375933-1-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2016/09/Gal-Gadot.jpg",
+        "thumbnail": "https://130513-375933-1-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2016/09/Gal-Gadot.jpg"
+      },
+      "nat": "CO",
+      "bonne": true,
+      "description": "Je te ferai visiter mon île",
+      "gallery": [
+        "Mocks/Pictures/CustomUser/gal-gadot-1-min.jpg",
+        "Mocks/Pictures/CustomUser/gal-gadot-2-min.jpg",
+        "Mocks/Pictures/CustomUser/gal-gadot-3-min.jpg",
+        "Mocks/Pictures/CustomUser/gal-gadot-4-min.jpg",
+        "Mocks/Pictures/CustomUser/gal-gadot-5-min.jpg",
+        "Mocks/Pictures/CustomUser/gal-gadot-6-min.jpg"
+      ]
+    },
+
+    {
+      "gender": "male",
+      "name": {
+        "first": "Winnie",
+        "last": "L'ourson"
+      },
+      "location": {
+        "street": "Parc Walt Disney Studios, place des Frères Lumière",
+        "city": "Chessy",
+        "state": "France",
+        "postcode": 777000
+      },
+      "email": "winnie.lourson@example.com",
+      "dob": "2009-02-02 21:19:59",
+      "picture": {
+        "large": "https://i.pinimg.com/736x/60/38/b4/6038b44b2364572c96ab538801a44ef1--baby-disney-disney-cruiseplan.jpg",
+        "medium": "https://i.pinimg.com/736x/60/38/b4/6038b44b2364572c96ab538801a44ef1--baby-disney-disney-cruiseplan.jpg",
+        "thumbnail": "https://i.pinimg.com/736x/60/38/b4/6038b44b2364572c96ab538801a44ef1--baby-disney-disney-cruiseplan.jpg"
+      },
+      "nat": "US",
+      "bonne": false,
+      "description": "Je sais compté deux par deux et lassé mes chaussures.",
+      "gallery": [
+        "Mocks/Pictures/CustomUser/winnie-ourson-1-min.jpg",
+        "Mocks/Pictures/CustomUser/winnie-ourson-2-min.jpg",
+        "Mocks/Pictures/CustomUser/winnie-ourson-3-min.jpg",
+        "Mocks/Pictures/CustomUser/winnie-ourson-4-min.jpg",
+        "Mocks/Pictures/CustomUser/winnie-ourson-5-min.jpg",
+        "Mocks/Pictures/CustomUser/winnie-ourson-6-min.jpg"
+      ]
+    },
+
+    {
+      "gender": "male",
+      "name": {
+        "first": "Stephane",
+        "last": "Berne"
+      },
+      "location": {
+        "street": "RTL Stéphane Bern 22 rue Bayard",
+        "city": "Paris",
+        "state": "France",
+        "postcode": 75008
+      },
+      "email": "stephane.berne@example.com",
+      "dob": "1963-11-14 21:19:59",
+      "picture": {
+        "large": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/St%C3%A9phane_Bern_Luxembourg_Royal_Wedding_2012.jpg/800px-St%C3%A9phane_Bern_Luxembourg_Royal_Wedding_2012.jpg", 
+        "medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/St%C3%A9phane_Bern_Luxembourg_Royal_Wedding_2012.jpg/800px-St%C3%A9phane_Bern_Luxembourg_Royal_Wedding_2012.jpg", 
+        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/St%C3%A9phane_Bern_Luxembourg_Royal_Wedding_2012.jpg/800px-St%C3%A9phane_Bern_Luxembourg_Royal_Wedding_2012.jpg" 
+      },
+      "nat": "FR",
+      "bonne": false,
+      "description": "Je suis un arbre volant, avec des racines et des ailes",
+      "gallery": [
+        "Mocks/Pictures/CustomUser/stephane-berne-1-min.jpg",
+        "Mocks/Pictures/CustomUser/stephane-berne-2-min.jpg",
+        "Mocks/Pictures/CustomUser/stephane-berne-3-min.jpg",
+        "Mocks/Pictures/CustomUser/stephane-berne-4-min.jpg",
+        "Mocks/Pictures/CustomUser/stephane-berne-5-min.jpg",
+        "Mocks/Pictures/CustomUser/stephane-berne-6-min.jpg"
+
+      ]
+    },
+
+    {
+      "gender": "female",
+      "name": {
+        "first": "Bait",
+        "last": "Girl"
+      },
+      "location": {
+        "street": "1491 Place Delille",
+        "city": "Clermont-Ferrand",
+        "state": "France",
+        "postcode": 63000
+      },
+      "email": "mami.janette@example.com",
+      "dob": "1994-11-17 21:19:59",
+      "picture": {
+        "large": "https://i.pinimg.com/originals/d4/8d/02/d48d0263b44bd355beef0cba3d42e197.jpg",
+        "medium": "https://i.pinimg.com/originals/d4/8d/02/d48d0263b44bd355beef0cba3d42e197.jpg",
+        "thumbnail": "https://i.pinimg.com/originals/d4/8d/02/d48d0263b44bd355beef0cba3d42e197.jpg"
+      },
+      "nat": "FR",
+      "bonne": false,
+      "description": "❤ I have nudes ❤",
+      "gallery": [
+        "Mocks/Pictures/CustomUser/bait-girl-1-min.jpg",
+        "Mocks/Pictures/CustomUser/bait-girl-2-min.jpg",
+        "Mocks/Pictures/CustomUser/bait-girl-3-min.jpg",
+        "Mocks/Pictures/CustomUser/bait-girl-4-min.jpg",
+        "Mocks/Pictures/CustomUser/bait-girl-5-min.jpg",
+        "Mocks/Pictures/CustomUser/bait-girl-6-min.jpg"
+
+      ]
+    },
+
+    {
+      "gender": "male",
+      "name": {
+        "first": "N°150",
+        "last": "Mewtwo"
+      },
+      "location": {
+        "street": "Préfecture de Kyoto",
+        "city": "Kyoto",
+        "state": "Japon",
+        "postcode": 5200461
+      },
+      "email": "pokemon.mewto@example.com",
+      "dob": "1800-01-01 21:19:59",
+      "picture": {
+        "large": "http://www.pokepedia.fr/images/thumb/d/db/Mewtwo-RFVF.png/489px-Mewtwo-RFVF.png",
+        "medium": "http://www.pokepedia.fr/images/thumb/d/db/Mewtwo-RFVF.png/489px-Mewtwo-RFVF.png",
+        "thumbnail": "http://www.pokepedia.fr/images/thumb/d/db/Mewtwo-RFVF.png/489px-Mewtwo-RFVF.png"
+      },
+      "nat": "JP",
+      "bonne": false,
+      "description": "You will never see me again ! Good luck.",
+      "gallery": [
+        "Mocks/Pictures/CustomUser/mewtwo-1-min.jpg",
+        "Mocks/Pictures/CustomUser/mewtwo-2-min.jpg",
+        "Mocks/Pictures/CustomUser/mewtwo-3-min.jpg",
+        "Mocks/Pictures/CustomUser/mewtwo-4-min.jpg",
+        "Mocks/Pictures/CustomUser/mewtwo-5-min.jpg",
+        "Mocks/Pictures/CustomUser/mewtwo-6-min.jpg"
+      ]
+    }
+
+  ]
+}

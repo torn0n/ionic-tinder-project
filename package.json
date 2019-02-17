@@ -101,14 +101,14 @@
       "cordova-plugin-ionic-keyboard": {},
       "cordova-plugin-android-permissions": {},
       "cordova-plugin-camera": {},
-      "cordova.plugins.diagnostic": {},
       "cordova-plugin-file": {},
       "cordova-plugin-filepath": {},
       "cordova-plugin-file-transfer": {},
       "cordova-plugin-geolocation": {},
       "cordova-plugin-inappbrowser": {},
       "cordova-plugin-local-notification": {},
-      "cordova-plugin-screen-orientation": {}
+      "cordova-plugin-screen-orientation": {},
+      "cordova.plugins.diagnostic": {}
     },
     "platforms": [
       "android"

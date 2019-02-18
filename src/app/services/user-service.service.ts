@@ -37,6 +37,16 @@ export class UserServiceService {
     this.user = {};
   }
 
+  public setUserRegister(data) {
+    this.user = data;
+  }
+
+  public getUserRegister() {
+    return this.user;
+  }
+
+
+
   setRank(nbMatch: number) {
     if (nbMatch < 10) {
       this.rank = 'Looser';
@@ -132,109 +142,4 @@ async presentToast(text) {
   toast.present();
 }
 
-/*
-// CA MARCHE
-takePicture(sourcetype: any): any {
-
-  const options: CameraOptions = {
-    quality: 75,
-    sourceType: sourcetype,
-    destinationType: this.camera.DestinationType.DATA_URL,
-    encodingType: this.camera.EncodingType.JPEG,
-    mediaType: this.camera.MediaType.PICTURE,
-    targetWidth: 1000,
-    targetHeight: 1000,
-    correctOrientation: true
-  };
-  return this.camera.getPicture(options).then((imageData) => {
-    // imageData is either a base64 encoded string or a file URI
-    // If it's base64:
-    const base64Image = 'data:image/jpeg;base64,' + imageData;
-    return base64Image;
-  }, (err) => {
-    console.log('erreur ?');
-    // this.presentToast('Error while selecting image.');
-  });
-}
-
-
-  getCameraPermission(sourcetype: any): any {
-    // this.androidPermissions.checkPermission(this.androidPermissions.PERMISSION.CAMERA);
-
-    const successCallback = function (status: any) {
-      if (status === this.diagnostic.permissionStatus.GRANTED) {
-        return this.takePicture(sourcetype);
-      } else {
-        alert('Vous n\'avez pas la permission');
-      }
-    };
-    const errorCallback = (e: any) => console.error(e);
-
-    return this.diagnostic.getPermissionAuthorizationStatus(this.diagnostic.permission.READ_EXTERNAL_STORAGE).then(function (status) {
-      switch (status) {
-        case this.diagnostic.permissionStatus.GRANTED:
-          console.log('Permission granted to use the camera');
-          return this.takePicture(sourcetype);
-        case this.diagnostic.permissionStatus.NOT_REQUESTED:
-          console.log('Permission to use the camera has not been requested yet');
-          return this.diagnostic.requestCameraAuthorization(successCallback, errorCallback, true);
-        case this.diagnostic.permissionStatus.DENIED:
-          console.log('Permission denied to use the camera - ask again?');
-          return this.diagnostic.requestCameraAuthorization(successCallback, errorCallback, true);
-        case this.diagnostic.permissionStatus.DENIED_ALWAYS:
-          console.log('Permission permanently denied to use the camera - guess we won\'t be using it then!');
-          break;
-      }
-    }, function (error) {
-      console.error('The following error occurred: ' + error);
-    }, );
-  }
-
-
-  openCamera(): any {
-
-    this.androidPermissions.checkPermission(this.androidPermissions.PERMISSION.CAMERA).then(
-      result => {
-        alert(result.hasPermission);
-        if (!result.hasPermission) {
-          this.androidPermissions.requestPermission(this.androidPermissions.PERMISSION.CAMERA)
-          .then( cam => {
-            alert('permission result ' + JSON.stringify(cam) );
-            return this.capturingPicture();
-          })
-          .catch( error => {
-            alert('permission error occured ' + JSON.stringify(error) );
-          });
-        } else {
-          return this.capturingPicture();
-        }
-      },
-      err => {
-        this.androidPermissions.requestPermission(this.androidPermissions.PERMISSION.CAMERA);
-      });
-  }
-
-  capturingPicture(): any {
-    alert('capturingPicture');
-
-    const options: CameraOptions = {
-      quality: 75,
-      sourceType : this.camera.PictureSourceType.CAMERA,
-      destinationType: this.camera.DestinationType.FILE_URI,
-      encodingType: this.camera.EncodingType.JPEG,
-      mediaType: this.camera.MediaType.PICTURE,
-      targetWidth: 1000,
-      targetHeight: 1000,
-      correctOrientation: true
-    };
-
-    this.camera.getPicture(options).then((imageData) => {
-      const base64Image = 'data:image/jpeg;base64,' + imageData;
-      return base64Image;
-    }, (err) => {
-      // Handle error
-      alert('get picture error => ' + err);
-    });
-  }
-*/
 }

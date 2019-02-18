@@ -1,9 +1,83 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>register2</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content class="toto" padding>
 
-<ion-content padding>
+  <div class="progress-bar stripes">
+    <span [style.background-color]="myBgColor" [style.width]="workoutProgress"></span>
+  </div>
+
+  <form [formGroup]="registerForm2" (ngSubmit)="onSubmit(this.registerForm2.value)">
+
+    <div class="container">
+
+      <div class="block center date-css">
+        <ion-item>
+          <ion-label position="stacked">Ta date de naissance</ion-label>
+          <ion-input formControlName="date" type="date" name="date"></ion-input>
+        </ion-item>
+
+        <div *ngIf="!registerForm2.controls.date.valid  && (registerForm2.controls.date.dirty || submitAttempt)">
+          <div *ngIf="registerForm2.controls.date.hasError('my_error_text')" class="validator-error">
+            {{registerForm2.controls.date.errors.my_error_text}}
+          </div>
+        </div>
+      </div>
+
+      <div class="block center">
+          <ion-list>
+            <ion-radio-group formControlName="target">
+              <ion-list-header>
+                Quelle est ta cible ?
+              </ion-list-header>
+  
+              <ion-item>
+                <ion-label>Homme(s) &nbsp;&nbsp;
+                  <ion-icon name="male"></ion-icon>
+                </ion-label>
+                <ion-radio value="male"></ion-radio>
+              </ion-item>
+  
+              <ion-item>
+                <ion-label>Femme(s) &nbsp;&nbsp;
+                  <ion-icon name="female"></ion-icon>
+                </ion-label>
+                <ion-radio value="female"></ion-radio>
+              </ion-item>
+  
+              <ion-item>
+                <ion-label>Les deux &nbsp;&nbsp;</ion-label>
+                <ion-radio value="both"></ion-radio>
+              </ion-item>
+            </ion-radio-group>
+          </ion-list>
+        </div>
+
+      <div class="block center description-css">
+        <ion-item>
+          <ion-label position="floating">Ta description</ion-label>
+          <ion-input clearInput="true" formControlName="description" type="text" [class.invalid]="!registerForm2.controls.description.valid && (registerForm2.controls.description.dirty || submitAttempt)"></ion-input>
+        </ion-item>
+
+      </div>
+   
+
+
+
+
+
+
+    </div>
+
+    <ion-fab vertical="bottom" horizontal="start" class="bottom-left">
+      <ion-fab-button type="button" class="bord" color="primary" (click)="goBack()">
+        <ion-icon name="ios-arrow-back"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+
+    <ion-fab vertical="bottom" horizontal="end" class="bottom-right">
+      <ion-button expand="block" shape="round" fill="solid" type="submit" class="bord" color="secondary" [disabled]="!this.registerForm2.valid">
+        <ion-icon name="md-checkmark"></ion-icon>
+      </ion-button>
+    </ion-fab>
+
+  </form>
 
 </ion-content>

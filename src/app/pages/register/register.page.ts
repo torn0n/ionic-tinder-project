@@ -1,30 +1,8 @@
-import {
-  Component,
-  ANALYZE_FOR_ENTRY_COMPONENTS
-} from '@angular/core';
-import {
-  FormGroup,
-  FormBuilder,
-  FormControl,
-  Validators,
-  AbstractControl
-} from '@angular/forms';
-import {
-  Camera,
-  CameraOptions
-} from '@ionic-native/camera/ngx';
-import {
-  AlertController,
-  NavController,
-  NavParams,
-  ActionSheetController,
-  ToastController,
-  LoadingController
-} from '@ionic/angular';
-
-import {
-  UserServiceService
-} from '../../services/user-service.service';
+import { Component } from '@angular/core';
+import { FormGroup, FormBuilder, Validators, AbstractControl } from '@angular/forms';
+import { Camera} from '@ionic-native/camera/ngx';
+import { AlertController, NavController, ActionSheetController, ToastController, LoadingController } from '@ionic/angular';
+import { UserServiceService } from '../../services/user-service.service';
 
 const USER_DEFAULT_PICTURE: any = 'assets/imgs/default-avatar.png';
 @Component({
@@ -92,21 +70,13 @@ export class RegisterPage {
   }
 
   onSubmit(form) {
-    console.log(form);
     const user = {
       firstname: form.firstName,
       lastname: form.lastName,
       picture: this.user_picture
     };
-    // this.userService.setUserInStorage(user);
-    this.goToReg2(user, this.numberProgress);
-  }
-
-  goToReg2(data, numberProgress) {
-    this.navCtrl.push(Register2Page, {
-      user : data,
-      barProgress: numberProgress
-    });
+    this.userService.setUserRegister(user);
+    this.navCtrl.navigateForward('/register2');
   }
 
   async useCameraOrGallery(sourcetype: any) {

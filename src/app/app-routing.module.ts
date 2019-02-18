@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  { path: '', loadChildren: './pages/register/register.module#RegisterPageModule' },
+  { path: '', redirectTo: 'register', pathMatch: 'full' },
   { path: 'detail-profile', loadChildren: './pages/detail-profile/detail-profile.module#DetailProfilePageModule' },
   { path: 'edit-user', loadChildren: './pages/edit-user/edit-user.module#EditUserPageModule' },
   { path: 'home', loadChildren: './pages/home/home.module#HomePageModule' },

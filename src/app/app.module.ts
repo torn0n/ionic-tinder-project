@@ -17,6 +17,7 @@ import { HttpModule } from '@angular/http';
 import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 import { Diagnostic } from '@ionic-native/diagnostic/ngx';
 import { AndroidPermissions } from '@ionic-native/android-permissions/ngx';
+import { LocalNotifications } from '@ionic-native/local-notifications/ngx';
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
@@ -36,6 +37,7 @@ import { AndroidPermissions } from '@ionic-native/android-permissions/ngx';
     Camera,
     Diagnostic,
     AndroidPermissions,
+    LocalNotifications,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]
